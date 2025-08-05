@@ -1,8 +1,11 @@
-# PrivNote - Self-Destructing Secure Notes
+<p align="center">
+  <a href="https://bitburner.vberkoz.com/" target="blank"><img src="https://raw.githubusercontent.com/serverless-solution/privnote-front/main/public/shield.svg" width="100" alt="Bitburner Logo" /></a>
+</p>
+<p align="center"><a href="https://bitburner.vberkoz.com/" target="_blank">Bitburner</a></p>
 
-![PrivNote Logo](/public/shield.svg)
+# Bitburner - Self-Destructing Secure Notes
 
-PrivNote is a secure, self-destructing note sharing application built with React, TypeScript, and Vite. It allows users to create encrypted notes that automatically self-destruct after being read once.
+Bitburner is a secure, self-destructing note sharing application built with React, TypeScript, and Vite. It allows users to create encrypted notes that automatically self-destruct after being read once.
 
 ## Features
 
@@ -34,7 +37,7 @@ PrivNote is a secure, self-destructing note sharing application built with React
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/privnote-front.git
+   git clone https://github.com/serverless-solution/privnote-front.git
    cd privnote-front
    ```
 
