@@ -16,8 +16,6 @@ export const createNote = async (note: string) => {
             throw new Error(errorData.error || 'Failed to create note');
         }
 
-        console.log("Note created successfully:", response);
-
         return response.json();
     } catch (error) {
         console.error('Error creating note:');
@@ -38,8 +36,6 @@ export const getNote = async (noteId: string) => {
             const errorData = await response.json();
             throw new Error(errorData.error || 'Failed to get note');
         }
-
-        console.log("Note retrieved successfully:", response);
 
         return response.json();
     } catch (error) {
